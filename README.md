@@ -1,8 +1,8 @@
-# ELYSIA Accra Residences & Private Registry
+# COD REALTY & PROPERTIES & Private Registry
 
-Welcome to the digital private registry of **ELYSIA Accra Residences**, an elite residential showcase and real-time portfolio management console tailored for ultra-high-net-worth real estate enclaves in Accra (Cantonments, Airport Residential Area, and East Legon).
+Welcome to the digital private registry of **COD REALTY & PROPERTIES**, an elite residential showcase and real-time portfolio management console tailored for ultra-high-net-worth real estate enclaves in Accra (Cantonments, Airport Residential Area, and East Legon).
 
-ELYSIA represents a masterclass in modern editorial design, combining dark mode aesthetics, glassmorphism, responsive animations, and a secure real-time decryption signature vault to manage a premium property portfolio on the fly.
+COD REALTY represents a masterclass in modern editorial design, combining dark mode aesthetics, glassmorphism, responsive animations, and a secure real-time decryption signature vault to manage a premium property portfolio on the fly.
 
 ---
 
@@ -68,7 +68,7 @@ npm run build
 ## 📁 Directory Structure
 
 ```text
-elysia-accra-real-estate/
+cod-realty-properties/
 ├── src/
 │   ├── components/
 │   │   ├── AdminPanel.jsx      # Luxury control center (Overview, CRUD, Inbox, Settings)

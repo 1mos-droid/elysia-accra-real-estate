@@ -70,7 +70,7 @@ export const properties = [
     baths: 7,
     sqft: 8500,
     image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-    description: "ELYSIA's crown jewel. A sprawling multi-winged estate boasting a private cinema room, subterranean wine cellar, automated climate control, and breathtaking cascading water features.",
+    description: "COD REALTY's crown jewel. A sprawling multi-winged estate boasting a private cinema room, subterranean wine cellar, automated climate control, and breathtaking cascading water features.",
     featured: true,
     tag: "Signature Collection"
   },
@@ -100,13 +100,13 @@ export const stats = [
 
 export const testimonials = [
   {
-    quote: "ELYSIA Accra redefined what high-end real estate means to me. Their attention to privacy, aesthetic elegance, and flawless service was unmatched.",
+    quote: "COD REALTY redefined what high-end real estate means to me. Their attention to privacy, aesthetic elegance, and flawless service was unmatched.",
     author: "Kwame Boateng",
     role: "CEO, Pan-African Venture Capital",
     location: "Accra / London"
   },
   {
-    quote: "Purchasing our penthouse in Cantonments through ELYSIA was an absolute masterclass in luxury service. The transactions were smooth, secure, and fully confidential.",
+    quote: "Purchasing our penthouse in Cantonments through COD REALTY was an absolute masterclass in luxury service. The transactions were smooth, secure, and fully confidential.",
     author: "Elena Rostova",
     role: "International Real Estate Investor",
     location: "Geneva / Accra"

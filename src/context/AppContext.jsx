@@ -4,13 +4,13 @@ import { properties as defaultProperties, stats as defaultStats, testimonials as
 const AppContext = createContext();
 
 const initialSiteSettings = {
-  phone: "+233 24 000 0000",
-  email: "concierge@elysia.com",
-  address: "Villaggio Vista, North Airport Road, Airport Residential Area, Accra, Ghana",
-  heroTitle: "Discover Your Next",
-  heroTitleItalic: "Masterpiece",
-  heroDescription: "An elite collection of private villas, architectural landmarks, and breathtaking sky-penthouses in Cantonments, East Legon, and Airport Residential.",
-  announcementBanner: "ELYSIA Private Registry: Exclusive off-market residences available in Cantonments. Enquire privately.",
+  phone: "+233 20 582 1402",
+  email: "info@codgroupgh.com",
+  address: "Ring Road East, Near Danquah Circle, Osu, Accra, Ghana",
+  heroTitle: "Discover Elite",
+  heroTitleItalic: "Accra Living",
+  heroDescription: "An exceptional collection of luxury residential developments, architectural landmarks, and premium compounds presented by COD Realty & Properties.",
+  announcementBanner: "COD REALTY & PROPERTIES: Exclusive off-market premium listings available. Consult privately.",
   showAnnouncement: true,
   enableSounds: true
 };
@@ -40,27 +40,27 @@ const defaultLeads = [
 
 export const AppProvider = ({ children }) => {
   const [properties, setProperties] = useState(() => {
-    const saved = localStorage.getItem("elysia_properties");
+    const saved = localStorage.getItem("cod_properties");
     return saved ? JSON.parse(saved) : defaultProperties;
   });
 
   const [stats, setStats] = useState(() => {
-    const saved = localStorage.getItem("elysia_stats");
+    const saved = localStorage.getItem("cod_stats");
     return saved ? JSON.parse(saved) : defaultStats;
   });
 
   const [testimonials, setTestimonials] = useState(() => {
-    const saved = localStorage.getItem("elysia_testimonials");
+    const saved = localStorage.getItem("cod_testimonials");
     return saved ? JSON.parse(saved) : defaultTestimonials;
   });
 
   const [leads, setLeads] = useState(() => {
-    const saved = localStorage.getItem("elysia_leads");
+    const saved = localStorage.getItem("cod_leads");
     return saved ? JSON.parse(saved) : defaultLeads;
   });
 
   const [siteSettings, setSiteSettings] = useState(() => {
-    const saved = localStorage.getItem("elysia_settings");
+    const saved = localStorage.getItem("cod_settings");
     return saved ? JSON.parse(saved) : initialSiteSettings;
   });
 
@@ -69,23 +69,23 @@ export const AppProvider = ({ children }) => {
 
   // Sync to local storage
   useEffect(() => {
-    localStorage.setItem("elysia_properties", JSON.stringify(properties));
+    localStorage.setItem("cod_properties", JSON.stringify(properties));
   }, [properties]);
 
   useEffect(() => {
-    localStorage.setItem("elysia_stats", JSON.stringify(stats));
+    localStorage.setItem("cod_stats", JSON.stringify(stats));
   }, [stats]);
 
   useEffect(() => {
-    localStorage.setItem("elysia_testimonials", JSON.stringify(testimonials));
+    localStorage.setItem("cod_testimonials", JSON.stringify(testimonials));
   }, [testimonials]);
 
   useEffect(() => {
-    localStorage.setItem("elysia_leads", JSON.stringify(leads));
+    localStorage.setItem("cod_leads", JSON.stringify(leads));
   }, [leads]);
 
   useEffect(() => {
-    localStorage.setItem("elysia_settings", JSON.stringify(siteSettings));
+    localStorage.setItem("cod_settings", JSON.stringify(siteSettings));
   }, [siteSettings]);
 
   // Audio trigger helper
@@ -215,11 +215,11 @@ export const AppProvider = ({ children }) => {
   };
 
   const resetToDefaults = () => {
-    localStorage.removeItem("elysia_properties");
-    localStorage.removeItem("elysia_stats");
-    localStorage.removeItem("elysia_testimonials");
-    localStorage.removeItem("elysia_leads");
-    localStorage.removeItem("elysia_settings");
+    localStorage.removeItem("cod_properties");
+    localStorage.removeItem("cod_stats");
+    localStorage.removeItem("cod_testimonials");
+    localStorage.removeItem("cod_leads");
+    localStorage.removeItem("cod_settings");
     
     setProperties(defaultProperties);
     setStats(defaultStats);
@@ -227,7 +227,7 @@ export const AppProvider = ({ children }) => {
     setLeads(defaultLeads);
     setSiteSettings(initialSiteSettings);
     
-    triggerNotification("System Restored", "ELYSIA registry database has been reset to default Cantonments portfolios.", "info");
+    triggerNotification("System Restored", "COD REALTY registry database has been reset to default Cantonments portfolios.", "info");
   };
 
   return (

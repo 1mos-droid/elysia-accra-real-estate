@@ -84,7 +84,7 @@ export default function Hero() {
       {/* Decorative luxury coordinates detail */}
       <div className="absolute bottom-10 left-10 hidden xl:flex flex-col text-[10px] tracking-[0.3em] uppercase text-gray-500 font-light space-y-1">
         <span>Accra, Ghana</span>
-        <span className="text-luxury-gold/50">5.6037° N, 0.1870° W</span>
+        <span className="text-luxury-gold/50">5.5731° N, 0.1807° W</span>
       </div>
 
       {/* Animated Scroll Indicator */}

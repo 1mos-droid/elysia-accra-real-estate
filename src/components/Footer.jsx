@@ -15,14 +15,14 @@ export default function Footer() {
           <div className="lg:col-span-5 space-y-6">
             <a href="#" className="flex flex-col items-start">
               <span className="font-serif text-2xl tracking-[0.25em] text-white">
-                ELYSIA
+                COD REALTY
               </span>
               <span className="text-[9px] tracking-[0.4em] text-luxury-gold uppercase font-light">
-                Accra Residences
+                & Properties
               </span>
             </a>
             <p className="text-xs text-gray-400 font-sans tracking-wide leading-relaxed font-light max-w-sm">
-              "Architecture is the learned game, correct and magnificent, of forms assembled in the light." ELYSIA curate spaces that transcend shelter, defining the zenith of architectural masterworks in West Africa.
+              "Architecture is the learned game, correct and magnificent, of forms assembled in the light." COD REALTY curate spaces that transcend shelter, defining the zenith of architectural masterworks in West Africa.
             </p>
             {/* Social Icons */}
             <div className="flex items-center space-x-4 pt-2">
@@ -125,7 +125,7 @@ export default function Footer() {
 
         {/* Footer Bottom Block */}
         <div className="flex flex-col sm:flex-row items-center justify-between text-[10px] tracking-widest uppercase text-gray-500 font-light space-y-4 sm:space-y-0 pt-6">
-          <p>© {new Date().getFullYear()} ELYSIA Accra. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} COD REALTY & PROPERTIES. All Rights Reserved.</p>
           <div className="flex items-center space-x-6">
             <a href="#" className="hover:text-luxury-gold transition-colors duration-300">Privacy Policy</a>
             <a href="#" className="hover:text-luxury-gold transition-colors duration-300">Terms of Registry</a>

@@ -163,7 +163,7 @@ export default function AdminPanel() {
         {/* Left Side: Dynamic Sidebar Tabs (3 cols) */}
         <div className="lg:col-span-3 bg-luxury-card border border-white/5 rounded-xs p-6 space-y-6">
           <div className="text-left pb-4 border-b border-white/5">
-            <h2 className="font-serif text-xl text-white font-light tracking-wide">ELYSIA Control</h2>
+            <h2 className="font-serif text-xl text-white font-light tracking-wide">COD REALTY Control</h2>
             <span className="text-[9px] uppercase tracking-widest text-gray-500 mt-1 block">Accra Core Registry</span>
           </div>
 
@@ -204,7 +204,7 @@ export default function AdminPanel() {
           <div className="pt-8 border-t border-white/5 text-center">
             <button
               onClick={() => {
-                if (window.confirm("Are you sure you want to restore Elysia to standard default listings? This clears all edits!")) {
+                if (window.confirm("Are you sure you want to restore COD Realty to standard default listings? This clears all edits!")) {
                   resetToDefaults();
                 }
               }}

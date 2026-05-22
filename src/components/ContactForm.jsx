@@ -88,9 +88,17 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <h4 className="text-[10px] uppercase tracking-widest text-gray-500 mb-1 font-bold">Bespoke Lounge</h4>
-                  <p className="text-sm font-sans text-white leading-relaxed font-light">
+                  <p className="text-sm font-sans text-white leading-relaxed font-light mb-2">
                     {siteSettings.address}
                   </p>
+                  <a 
+                    href="https://www.google.com/maps/place/COD+REALTY+%26+PROPERTIES/@5.5730638,-0.1807054,17z/data=!3m1!4b1!4m6!3m5!1s0xfdf9b7d79222363:0x233549debfc7a678!8m2!3d5.5730638!4d-0.1807054!16s%2Fg%2F11j2xlcqyp?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-[10px] tracking-widest uppercase text-luxury-gold hover:text-white font-bold transition-colors duration-300"
+                  >
+                    View Map Location <ArrowRight size={10} className="ml-1" />
+                  </a>
                 </div>
               </div>
 

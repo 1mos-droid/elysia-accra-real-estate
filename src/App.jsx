@@ -89,7 +89,7 @@ function App() {
               {/* Description Text (7 cols) */}
               <div className="lg:col-span-7 space-y-6">
                 <p className="text-sm text-gray-400 font-sans tracking-wide leading-relaxed font-light">
-                  At ELYSIA, we do not simply sell properties. We represent residential milestones. Each home in our portfolio is selected for its architectural integrity, elite craftsmanship, and absolute discretion of location.
+                  At COD REALTY, we do not simply sell properties. We represent residential milestones. Each home in our portfolio is selected for its architectural integrity, elite craftsmanship, and absolute discretion of location.
                 </p>
                 <p className="text-sm text-gray-400 font-sans tracking-wide leading-relaxed font-light">
                   From high-security private compounds in Cantonments to panoramic penthouses in the Airport Residential Area, our collection serves as an investment in legacy.
@@ -97,10 +97,10 @@ function App() {
                 {/* Elegant signature of executive client director */}
                 <div className="pt-4 flex items-center space-x-4">
                   <div className="h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center font-serif text-sm text-luxury-gold italic">
-                    E
+                    C
                   </div>
                   <div>
-                    <span className="text-xs uppercase tracking-widest text-white font-bold block">Elysia Executive Registry</span>
+                    <span className="text-xs uppercase tracking-widest text-white font-bold block">COD Executive Registry</span>
                     <span className="text-[9px] uppercase tracking-wider text-gray-500 mt-0.5 block">Discreet Concierge Services</span>
                   </div>
                 </div>

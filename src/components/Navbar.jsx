@@ -142,13 +142,13 @@ export default function Navbar() {
           {/* Logo Brand */}
           <a href="#" className="flex flex-col items-start group">
             <span className="font-serif text-2xl tracking-[0.25em] text-white group-hover:text-luxury-gold transition-colors duration-300 flex items-center space-x-1">
-              <span>ELYSIA</span>
+              <span>COD REALTY</span>
               {isAdminMode && (
                 <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse ml-1.5 self-center" title="Real-time Session Active" />
               )}
             </span>
             <span className="text-[9px] tracking-[0.4em] text-luxury-gold uppercase font-light">
-              Accra Residences
+              & Properties
             </span>
           </a>
 
@@ -337,7 +337,7 @@ export default function Navbar() {
               </div>
 
               <span className="text-[10px] tracking-[0.4em] text-luxury-gold uppercase font-bold mb-2">
-                ELYSIA Secure Registry
+                COD REALTY Secure Registry
               </span>
               <h3 className="font-serif text-2xl text-white font-light mb-6">
                 Enter Decryption Signature
